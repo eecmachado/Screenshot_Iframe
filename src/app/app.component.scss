@@ -1,0 +1,36 @@
+
+:host {
+	display: block ;
+	font-size: 18px ;
+}
+
+.main-content {
+	padding-top: 15px;
+	padding-left: 0px;
+	margin-left: 15px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 70vh;
+  }
+
+#iframe { display: block; width:100%; height:100%; }
+
+
+.botao {
+	background-color: #ff3366 ;
+	border-radius: 4px 4px 4px 4px ;
+	border-width: 0px 0px 0px 0px ;
+	color: #ffffff ;
+	cursor: pointer ;
+	display: block ;
+	font-size: 22px ;
+	margin: 20px 0px 20px 0px ;
+	padding: 20px 0px 20px 0px ;
+	width: 500px ;
+
+	&:hover {
+		background-color: darken( #ff3366, 10% ) ;
+	}
+}
+
+
